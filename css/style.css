@@ -11,7 +11,7 @@
 }
 
 .promo {
-    height: 800px;
+    height: 770px;
     background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
     padding: 39px 0 62px 0;
 }
@@ -81,7 +81,7 @@ h2.title {
 .promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: 0 auto;
-    margin-top: 73px;
+    margin-top: 58px;
     width: 313px;
     height: 72px;
     box-shadow: inset 0 0 0 rgba(0, 0, 0, .18);
@@ -103,7 +103,7 @@ h2.title {
 }
 
 .more {
-    margin-top: 73px;
+    margin-top: 58px;
 }
 
 .more .more_text {
@@ -311,4 +311,36 @@ h2.title {
     line-height: 20px;
     text-align: center;
     color: #4A4A4A;
+}
+
+footer {
+    min-height: 169px;
+    padding: 57px 0 69px 0;
+    background-color: #1A1A1A;
+}
+
+footer .footer_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #888888;
+}
+
+footer a:active, footer a:hover, footer a {
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: underline;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #888888;
 }
