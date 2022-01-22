@@ -78,7 +78,7 @@ h2.title {
     font-weight: 700;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: 0 auto;
     margin-top: 73px;
@@ -96,6 +96,10 @@ h2.title {
     text-transform: uppercase;
     cursor: pointer;
     outline: none;
+}
+
+.gift .gift_btn {
+    margin-top: 48px;
 }
 
 .more {
@@ -248,4 +252,26 @@ h2.title {
     font-size: 17px;
     font-weight: 300;
     line-height: 20px;
+}
+
+.gift {
+    min-height: 631px;
+    background-color: #efefef;
+    padding:88px 0;
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_descr {
+    margin-top: 48px;
+    width: 1161px;
+    min-height: 113px;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
 }
