@@ -602,6 +602,9 @@ footer a:active, footer a:hover, footer a {
     .finish .finish_item {
         margin-bottom: 20px;
     }
+    .first_webinar .first_webinar_text {
+        width: 540px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -661,5 +664,11 @@ footer a:active, footer a:hover, footer a {
     .gift .gift_descr {
         font-size: 20px;
         line-height: 28px;
+    }
+    .first_webinar .first_webinar_img {
+        width: 300px;
+    }
+    .first_webinar .first_webinar_text {
+        width: 300px;
     }
 }
