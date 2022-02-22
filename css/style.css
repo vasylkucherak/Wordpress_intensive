@@ -671,4 +671,21 @@ footer a:active, footer a:hover, footer a {
     .first_webinar .first_webinar_text {
         width: 300px;
     }
+    .footer_border {
+        display: none;
+    }
+    .footer_wrapper {
+        flex-direction: column;
+    }
+    .support {
+        margin-bottom: 20px;
+    }
+    .modal__dialog {
+        max-width: 320px;
+        margin: 40px auto;
+    }
+    .modal__content {
+        padding: 10px;
+        max-height: 95vh;
+    }
 }
