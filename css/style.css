@@ -587,6 +587,17 @@ footer a:active, footer a:hover, footer a {
     .optimization_img {
         transform: translate(-70px, 250px);
     }
+    .finish .finish_header {
+        font-size: 26px;
+    }
+    .finish .finish_wrapper {
+        flex-wrap: wrap;
+        justify-content: start;
+        margin: 41px 66px 0 66px;
+    }
+    .finish .finish_item {
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -632,5 +643,12 @@ footer a:active, footer a:hover, footer a {
     }
     .optimization_img {
         display: none;
+    }
+    .finish .finish_header {
+        display: block;
+        width: 280px;
+        margin: 0 auto;
+        font-size: 22px;
+        line-height: 36px;
     }
 }
