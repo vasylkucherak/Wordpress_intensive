@@ -523,6 +523,10 @@ footer a:active, footer a:hover, footer a {
         font-size: 15px;
         line-height: 25px;
     }
+    .gift .gift_descr {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -604,6 +608,9 @@ footer a:active, footer a:hover, footer a {
     .container {
         width: 300px;
     }
+    .btn {
+        width: 300px;
+    }
     .title {
         font-size: 30px;
     }
@@ -650,5 +657,9 @@ footer a:active, footer a:hover, footer a {
         margin: 0 auto;
         font-size: 22px;
         line-height: 36px;
+    }
+    .gift .gift_descr {
+        font-size: 20px;
+        line-height: 28px;
     }
 }
