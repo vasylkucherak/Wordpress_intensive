@@ -446,6 +446,9 @@ footer a:active, footer a:hover, footer a {
     padding: 0 20px;
     outline: 0;
 }
+.modal__input:focus::placeholder {
+    font-size: 0;
+}
 .modal .btn {
     display: block;
     width: 280px;
